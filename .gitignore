@@ -1,0 +1,31 @@
+# Maven
+target/
+*.log
+
+# WildFly / Server
+standalone/tmp/
+standalone/log/
+standalone/data/
+
+# IntelliJ / Eclipse
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Spark
+*.crc
+
+# Model files (optional – keep if you want versioned models)
+# *.pkl
